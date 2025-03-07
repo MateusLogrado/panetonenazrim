@@ -1,0 +1,66 @@
+/* Estilização geral */
+body {
+    background: linear-gradient(to bottom, #3A71D1, #130A1A);
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Cabeçalho */
+header {
+    background: black;
+    padding: 10px;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+/* Estilo para a caixa de estoque */
+.estoque-container {
+    background: black;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 300px;
+    margin: 20px auto;
+}
+
+.botao-voltar {
+    display: inline-block;
+    text-decoration: none;
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    font-size: 16px;
+    font-weight: bold;
+    transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+/* Lista de ingredientes */
+.estoque-container ul {
+    list-style: none;
+    text-align: left;
+    color: white;
+    font-size: 16px;
+}
+
+.estoque-container li {
+    margin: 5px 0;
+}
+
+
