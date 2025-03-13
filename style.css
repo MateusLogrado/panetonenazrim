@@ -63,3 +63,7 @@ a.botao:hover {
     transform: scale(1.05);
     box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.5);
 }
+
+@media (min-width:356) and (max-width: 1345px){
+
+}
