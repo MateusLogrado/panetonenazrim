@@ -65,6 +65,19 @@ h1 {
     outline: none;
 }
 
+.button-cal button {
+    background: rgb(3, 3, 3);
+    color: aliceblue;
+    padding: 10px;
+    
+    border-radius: 20px;
+    margin: 20px 0;
+    
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
 /* Botões */
 .botoes {
     display: flex;
