@@ -21,7 +21,7 @@ export default class Panetone{
 
             
         for(let i=0; i<10; i++){
-            return (comidas[2][i] * this.peso) / 440 
+            return (comidas[i][1] * this.peso) / 440 
         }
 
     }
