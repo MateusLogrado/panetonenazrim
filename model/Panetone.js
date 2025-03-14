@@ -9,11 +9,11 @@ export default class Panetone {
     }
 
     calcularDensidade() {
-        return this.calcularVolume * this.calcularVolume;
+        return this.calcularVolume() / this.calcularVolume();
     }
 
     calcularMassa() {
-        return this.calcularVolume * this.calcularDensidade;
+        return this.calcularVolume() / this.calcularDensidade();
     }
 
 }

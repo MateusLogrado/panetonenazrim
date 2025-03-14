@@ -2,7 +2,7 @@ export default class Ingrediente{
     constructor(peso){
         this.peso = peso
     }
-    calcularValorEstimado(quad){
+    calcularValorEstimado(quad, i){
                 let valor = [["Farinha de Trigo:", 13.50 / 1000],
                      ["Fermento biológico seco:", 1.79 / 10],
                      ["Leite morno desnatado:",6.49 / 1000],
@@ -25,27 +25,23 @@ let Quantidade = [["Farinha de trigo:",240],
                   ["Uvas-passas:",30],
                   ["Sal:",1.5]]
 
-    for(let i=0;i<10;i++){
-        return 
-    }
+        return valor[i][1] * Quantidade[i][1] * quad
     }
 
-    calcularIngredientes(){
-        let comidas =  [["farinha: ", 240]]
-                       [["fermento: ", 5]]
-                       [["leite: ", 60]]
-                       [["ovos: ", 2]]
-                       [["manteiga: ", 35]]
-                       [["adocante: ", 10]]
-                       [["essencia: ", 5]]
-                       [["frutas: ", 80]]
-                       [["uvas: ", 30]]
-                       [["sal: ", 1.5]]
+    calcularIngredientes(i){
+        let comidas =  [["farinha: ", 240],
+                       ["fermento: ", 5],
+                       ["leite: ", 60],
+                       ["ovos: ", 2],
+                       ["manteiga: ", 35],
+                       ["adocante: ", 10],
+                       ["essencia: ", 5],
+                       ["frutas: ", 80],
+                       ["uvas: ", 30],
+                       ["sal: ", 1.5]]
 
             
-        for(let i=0; i<10; i++){
             return (comidas[i][1] * this.peso) / 440 
-        }
 
     }
 }
