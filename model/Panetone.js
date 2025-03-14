@@ -1,18 +1,19 @@
-export default class Panetone{
-    constructor(raio,altura){
-        this.raio = raio
-        this.altura = altura
-    }
-    calcularVolume(){
-        return Math.PI * (this.raio * this.raio) * this.altura       
+export default class Panetone {
+    constructor(raio, altura) {
+        this.raio = raio;
+        this.altura = altura;
     }
 
-    calcularDensidade(){
-        return calcularMassa * this.calcularVolume
+    calcularVolume() {
+        return Math.PI * (this.raio * this.raio) * this.altura;
     }
 
-    calcularMassa(){
-        return this.calcularVolume * this.calcularDensidade
-
+    calcularDensidade() {
+        return this.calcularVolume * this.calcularVolume;
     }
+
+    calcularMassa() {
+        return this.calcularVolume * this.calcularDensidade;
+    }
+
 }
