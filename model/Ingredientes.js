@@ -5,14 +5,14 @@ export default class Ingrediente{
     calcularValorEstimado(quad, i){
                 let valor = [["Farinha de Trigo:", 13.50 / 1000],
                      ["Fermento biológico seco:", 1.79 / 10],
-                     ["Leite morno desnatado:",6.49 / 1000],
-                     ["Ovos:",12.90 / 12],
-                     ["Manteiga sem sal:",16.29 / 200],
-                     ["Adoçante culinário:",38.50 / 100],
-                     ["Essência de baunilha:",11.90 / 100],
-                     ["Frutas cristalizadas:",19.90 / 1000],
-                     ["Uvas-passas:",27.90 / 1000],
-                     ["Sal:",3.89 / 1000]]
+                     ["Leite morno desnatado:", 6.49 / 1000],
+                     ["Ovos:", 12.90 / 12],
+                     ["Manteiga sem sal:", 16.29 / 200],
+                     ["Adoçante culinário:", 38.50 / 100],
+                     ["Essência de baunilha:", 11.90 / 100],
+                     ["Frutas cristalizadas:", 19.90 / 1000],
+                     ["Uvas-passas:", 27.90 / 1000],
+                     ["Sal:", 3.89 / 1000]]
 
 
      let comidas =  [["farinha: ", 240]
