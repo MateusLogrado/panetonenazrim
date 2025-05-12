@@ -27,7 +27,7 @@ export default class Ingrediente{
                      ["sal: ", 1.5]]
 
 
-        return valor[i][1] * ((comidas[i][1] * this.peso) / 440 )
+        return valor[i][1] * ((comidas[1][i] * this.peso) / 440 ) * quad
 
 
     }
