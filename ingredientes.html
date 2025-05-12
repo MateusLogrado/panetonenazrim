@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ingredientes.css">
+    <link rel="shortcut icon" href="unnamed-removebg-preview.png" type="image/png">
+    <script type="module" src="./index.js"></script>
+    <title>Nazrin Confeitaria</title>
+</head>
+<body>
+
+    <header>
+        <img src="unnamed-removebg-preview.png" alt="Logo da empresa" class="logo">
+        <h1>Controle de Ingredientes</h1>
+    </header>
+    <main>
+        <div class="campo-peso">
+            <label for="peso">Peso(g)</label>
+            <input id="peso" placeholder="">
+        </div>
+
+        <div class="campo-peso">
+            <label for="quan">Quantidade</label>
+            <input id="quan" placeholder="">
+        </div>
+
+        <div class="campo-peso">
+            <label for="raio">Raio</label>
+            <input id="raio" placeholder="">
+        </div>
+
+        <div class="campo-peso">
+            <label for="altura">Altura</label>
+            <input id="altura" placeholder="">
+        </div>
+
+        <div class="button-cal">
+            <button id="cal">Calcular</button><br>
+            <button id="180g">Opção 180g</button><br>
+            <button id="440g">Opção 440g</button><br>
+            <button id="700g">Opção 700g</button><br>
+
+        </div>
+
+        <div class="estoque-container">
+            <ul>
+                <li>Farinha de trigo: <span class="quantidade" id="Farinha"></span></li>
+                <li>Fermento biológico seco: <span class="quantidade" id="Fermento"></span></li>
+                <li>Leite morno desnatado: <span class="quantidade" id="Leite"></span></li>
+                <li>Ovos: <span class="quantidade" id="Ovos"></span></li>
+                <li>Manteiga sem sal: <span class="quantidade" id="Manteiga"></span></li>
+                <li>Adoçante culinário: <span class="quantidade" id="Adocante"></span></li>
+                <li>Essência de baunilha: <span class="quantidade" id="Essencia"></span></li>
+                <li>Frutas cristalizadas: <span class="quantidade" id="Frutas"></span></li>
+                <li>Uvas-passas: <span class="quantidade" id="Uvas"></span></li>
+                <li>Sal: <span class="quantidade" id="Sal"></span></li>
+                <div id="res"></div>
+            </ul>
+        </div>
+    </main>
+
+    <a href="index.html" class="botao-voltar">🔙 Voltar</a>
+
+</body>
+</html>
